@@ -56,7 +56,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="EDIT"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="590dp" />
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="589dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEARCH"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="589dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
